@@ -21,8 +21,7 @@ var response = function() {
 
   }
   else {
-    alert("No, but here's comes a hint... Click the button that appears. Then refresh and try again!");
-
+    alert("No, but here's comes a hint... Click the button. Then refresh the browser and try again!")
 }
 };
 
