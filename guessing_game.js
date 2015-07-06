@@ -1,7 +1,6 @@
 
 var scientist = prompt("Who is Craig's favorite scientist?").toUpperCase();
 
-var count = 0;
 
 var showimage = function(src){
   var img = document.createElement('img');
