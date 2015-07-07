@@ -1,29 +1,18 @@
+var scientists = ["scientist_1", "scientist_2"];
+var score = 0;
 
-var scientist = prompt("Who is Craig's favorite scientist?").toUpperCase();
-
-
-var showimage = function(src){
-  var img = document.createElement('img');
-  img.src = src;
-  document.body.appendChild(img);
-};
-
-
-var response = function() {
-
-  if (scientist == "FEYNMAN") {
-    alert("Wowza! You got it!");
-
-  }
-   else if (scientist == "RICHARD FEYNMAN") {
-    alert("Wowza! You got it!");
-
-  }
-  else {
-    alert("No, but here's comes a hint... Click the button. Then refresh the browser and try again!")
+for (var i = 0; i < scientists.length; i++) {
+  scientists[i] = prompt("Who is scientist #" + (i+1) + "?").toUpperCase();
 }
-};
+if (scientists[0] == "FEYNMAN" || scientists[0] == "RICHARD FEYNMAN") {
+  score += 1
+  console.log(score);
+  }
+if (scientists[1] == "EINSTEIN" || scientists[1] == "ALBERT EINSTEIN") {
+  score += 1
+  console.log(score);
+  }
 
+console.log(score);
 
-
-response()
+alert("You got " + score + "points out of 2!!!  Scientist #1 was Richard Feynman.  Scientist #2 was Albert Einstein.");
