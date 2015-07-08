@@ -5,5 +5,6 @@ The game prompts you for Craig's favorite scientist.  If you get it correct, it 
 NOTE: you can keep clicking the button over and over to fill the page up with the picture!  However, these images disappear when you refresh the page, and you'll have to click again to make them appear.
 
 7/7/15
+
 We changed the game so the user guesses the names of two scientists pictured.  For each correct answer, the player gets 1 point.  At the end, the points earned and the total number of points possible are displayed.
 
